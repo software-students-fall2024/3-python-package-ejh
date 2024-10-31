@@ -54,16 +54,18 @@ def get_animal(animal):
     
     return output
 
-# print out fact for chosen animal
-def print_fact():
-    fact = get_random_fact(animal)
-    print(f"\nRandom Fact: {fact}\n")
-
 #get random message
 def get_random_message(messages):
     return random.choice(messages)
 
-# get random message for animal
+# print out fact for chosen animal
+def print_fact(animal):
+    fact = get_random_fact(animal)
+    if fact is None:
+        raise ValueError(f"No facts available for '{animal}'.")
+    print(f"\nRandom Fact: {fact}\n")
+
+# get random fact for animal
 def get_random_fact(animal):
     animalFacts = {
         "cat": [
@@ -91,6 +93,8 @@ def get_random_fact(animal):
         ]
     }
     fact = animalFacts.get(animal)
+    if fact is None:
+        raise ValueError(f"No facts available for '{animal}'.")
     return random.choice(fact)
 
 # primary functions
@@ -215,8 +219,8 @@ if __name__ == "__main__":
     else:
         try:
             move(animalText)
-            print_fact()
             randMessage(animal)
             race(animal)
+            print_fact(animal)
         except ValueError as e:
             print(e)
