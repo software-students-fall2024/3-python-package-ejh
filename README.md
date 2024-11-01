@@ -10,15 +10,15 @@ An exercise to create a Python package, build it, test it, distribute it, and us
 Install `pyanimals` with pip:
 
 ```console
-pip3 install pyanimals
+pip install pyAnimals_ejh
 ```
 
-### Python
+## Running pyAnimals_ejh
 
-Import `pyanimals` to your own project:
-'''pycon
->>> import pyanimals
-'''
+To run `pyAnimals_ejh`, use the following command:
+
+```bash
+python -m pyAnimals_ejh
 
 ## Team members
 
