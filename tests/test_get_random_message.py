@@ -1,5 +1,5 @@
 import pytest
-from pyanimals.main import get_random_message
+from pyanimals.pyAnimals_ejh import get_random_message
 
 #test 1 makes sure the logic works gets random message from the list of messsages only
 def test_get_random_message_validMessage():

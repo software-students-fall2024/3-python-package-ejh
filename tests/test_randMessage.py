@@ -1,5 +1,5 @@
 import pytest
-from pyanimals.main import randMessage
+from pyanimals.pyAnimals_ejh import randMessage
 from unittest.mock import patch
 
 #test 1 make sure a random message printed is for the correct animal

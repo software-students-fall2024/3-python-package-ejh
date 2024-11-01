@@ -1,6 +1,6 @@
 import pytest
 import random
-from pyanimals.main import print_fact
+from pyanimals.pyAnimals_ejh import print_fact
 # Test 1: Ensures print_fact returns a fact from the list for a valid animal
 def test_print_fact_valid_animal(capsys):
     test_animal = "cat"
