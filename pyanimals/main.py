@@ -3,9 +3,7 @@ from textwrap import dedent
 import os
 import time
 
-# helper functions
-
-# get ASCII art for animal
+# helper function: get ASCII art for animal
 def get_animal(animal):
     if animal not in ["cat", "bunny", "elephant", "rabbit"]:
         print("No ASCII art available for " + animal + ". Please choose from:\n'cat'\n'bunny'\n'elephant'\n'rabbit")
@@ -54,18 +52,24 @@ def get_animal(animal):
     
     return output
 
-#get random message
+# helper function: get random message
 def get_random_message(messages):
     return random.choice(messages)
 
-# print out fact for chosen animal
+# helper function: print out fact for chosen animal
 def print_fact(animal):
     fact = get_random_fact(animal)
     if fact is None:
         raise ValueError(f"No facts available for '{animal}'.")
     print(f"\nRandom Fact: {fact}\n")
 
-# get random fact for animal
+# primary functions
+
+#
+# package function: get_random_fact
+#
+
+# get_random_fact: print a random fact for specified animal
 def get_random_fact(animal):
     animalFacts = {
         "cat": [
@@ -97,13 +101,11 @@ def get_random_fact(animal):
         raise ValueError(f"No facts available for '{animal}'.")
     return random.choice(fact)
 
-# primary functions
-
 #
 # package function: move
 #
 
-# helper function: clear screen
+# helper function for move: clear screen
 def clearScreen():
     if os.name == 'nt':
         os.system('cls')
@@ -209,18 +211,34 @@ def race(animal):
     print(result)
     return [player_pos, animal_pos]
 
-# for debugging purposes
 if __name__ == "__main__":
-    animal = input("Enter an animal (cat, bunny, elephant, rabbit): ").strip().lower()
-    animalText = get_animal(animal)
-    
-    if animalText == "":
-        exit()
-    else:
+
+    while (1):
         try:
-            move(animalText)
-            randMessage(animal)
-            race(animal)
-            print_fact(animal)
+            animal = input("Enter an animal (cat, bunny, elephant, rabbit): ").strip().lower()
+            animalText = get_animal(animal)
+
+            if animalText == "":
+                continue
+            else:
+                function = int(input("Available functions: \n1. Move\n2. Race\n3. Random Message\n4. Random Fact\nChoose a function (enter a number between 1-4): "))
+                while (function < 1 or function > 4):
+                    function = int(input("Not a valid function. Please choose a number between 1-4: "))
+                
+                if (function == 1):
+                    move(animalText)
+                    exit()
+                elif (function == 2):
+                    race(animal)
+                    exit()
+                elif (function == 3):
+                    randMessage(animal)
+                    exit()
+                elif (function == 4):
+                    print_fact(animal)
+                    exit()
+                else:
+                    print("Error executing program")
+                    exit()
         except ValueError as e:
-            print(e)
+                print(e)
