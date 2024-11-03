@@ -113,7 +113,11 @@ def clearScreen():
         os.system('clear')
 
 # move: moves animal across terminal
-def move(animalText):
+def move(animal):
+    animalText = get_animal(animal)
+    if animalText == "":
+        return
+    
     spaces = 0
 
     try:
@@ -216,17 +220,14 @@ if __name__ == "__main__":
     while (1):
         try:
             animal = input("Enter an animal (cat, bunny, elephant, rabbit): ").strip().lower()
-            animalText = get_animal(animal)
-
-            if animalText == "":
-                continue
-            else:
+            
+            try:
                 function = int(input("Available functions: \n1. Move\n2. Race\n3. Random Message\n4. Random Fact\nChoose a function (enter a number between 1-4): "))
                 while (function < 1 or function > 4):
                     function = int(input("Not a valid function. Please choose a number between 1-4: "))
                 
                 if (function == 1):
-                    move(animalText)
+                    move(animal)
                     exit()
                 elif (function == 2):
                     race(animal)
@@ -240,5 +241,7 @@ if __name__ == "__main__":
                 else:
                     print("Error executing program")
                     exit()
+            except ValueError as e:
+                    print(e)
         except ValueError as e:
                 print(e)
