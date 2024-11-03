@@ -1,27 +1,36 @@
-<!-- Need to finish badge -->
 ![Build Status](https://github.com/software-students-fall2024/3-python-package-ejh/actions/workflows/event-logger.yml/badge.svg)
 
-# Python Package Exercise
-
-An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+# pyAnimals-ejh
 
 ## Table of Contents
 
-1. [PyPI Page](#pypi-page)
-2. [Installation](#installation)
-3. [Running pyAnimals_ejh](#running-pyanimals_ejh)
-5. [Contributing](#contributing)
-6. [Team Members](#team-members)
-7. [Configuration and Environment Setup](#configuration-and-environment-setup)
+1. [Description](#description)
+2. [PyPI Page](#pypi-page)
+3. [Installation](#installation)
+4. [Virtual Environment & Dependencies](#virtual-environment--dependencies)
+5. [Running pyAnimals_ejh](#running-pyanimals_ejh)
+6. [Contributing](#contributing)
+7. [Team Members](#team-members)
+
+## Description
+A fun package that displays animals on the terminal with movement and messages.
 
 ## PyPI Page
-You can find pyAnimals_ejh on [PyPI here](https://pypi.org/project/pyAnimals-ejh/0.1.0/)
+You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.1.0/)
 
 ## Installation
 
 Install `pyAnimals_ejh` with pip:
 ```
 pip install pyAnimals_ejh
+```
+
+## Virtual Environment & Dependencies
+Set up the virtual environment:
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Running pyAnimals_ejh
