@@ -3,7 +3,6 @@
 # pyAnimals-ejh
 
 ## Table of Contents
-
 1. [Description](#description)
 2. [PyPI Page](#pypi-page)
 3. [Installation](#installation)
@@ -19,7 +18,6 @@ A fun package that displays animals on the terminal with movement and messages.
 You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.1.0/)
 
 ## Installation
-
 Install `pyAnimals_ejh` with pip:
 ```
 pip install pyAnimals_ejh
@@ -34,11 +32,11 @@ pip install -r requirements.txt
 ```
 
 ## Running pyAnimals_ejh
-
 To run `pyAnimals_ejh`, use the following command:
 ```
 python -m pyAnimals_ejh
 ```
+NEED EXAMPLES HERE
 
 ## Contributing
 We welcome contributions to enhance and grow pyAnimals_ejh! Follow these steps to set up the development environment:
@@ -60,8 +58,8 @@ python -m build
 ```
 pytest
 ```
-5. Add New Tests
-If you add new functionality, include tests in the tests/ directory.
+5. Add New Tests\
+If you add new functionality, include tests in the tests directory.
 
 ## Team members
 
