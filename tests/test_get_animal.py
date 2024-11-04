@@ -1,6 +1,6 @@
 from textwrap import dedent
 import pytest
-from pyanimals.pyAnimals_ejh import get_animal
+from pyAnimals_ejh.pyAnimals_ejh import get_animal
 
 class TestGetAnimalFunction:
     # tests 1-4: check that function gets correct ASCII art for valid animals
