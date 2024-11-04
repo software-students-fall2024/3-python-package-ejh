@@ -16,7 +16,7 @@
 A fun package that displays animals on the terminal with movement and messages.
 
 ## PyPI Page
-You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.1.0/)
+You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.1.1/)
 
 ## Installation
 Install `pyAnimals_ejh` with pip:
