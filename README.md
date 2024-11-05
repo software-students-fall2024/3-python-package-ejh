@@ -87,6 +87,7 @@ python -m build
 ```
 4. Run Tests
 ```
+python -m pytest
 ```
 5. Add New Tests\
 If you add new functionality, include tests in the tests directory.
