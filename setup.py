@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pyAnimals_ejh",
-    version="0.1.0",
+    name="pyAnimalsEJH",
+    version="0.2.0",
     description="A fun package that displays animals on the terminal with movement and messages.",
     author="Emma Zhu, Haley Hobbs, Jason Tran, Jenna Han",
     author_email="egz2006@nyu.edu, hkh9725@nyu.edu, ht2354@nyu.edu, jh7765@nyu.edu",

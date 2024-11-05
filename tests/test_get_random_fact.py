@@ -1,6 +1,6 @@
 import pytest
 import random
-from pyAnimals_ejh.pyAnimals_ejh import get_random_fact
+from pyAnimalsEJH.pyAnimalsEJH import get_random_fact
 # Test 1: Ensures that the random fact returned is for the specific input animal from the list of facts
 def test_get_random_fact_validAnimal():
     testAnimal = "cat"

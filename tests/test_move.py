@@ -2,7 +2,7 @@
 
 from unittest.mock import patch
 import pytest
-from pyAnimals_ejh.pyAnimals_ejh import move
+from pyAnimalsEJH.pyAnimalsEJH import move
 
 # test #1: handles valid animals
 @pytest.mark.parametrize("validAnimal", ["cat", "bunny", "elephant", "rabbit"])

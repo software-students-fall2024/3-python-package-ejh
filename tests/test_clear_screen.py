@@ -3,7 +3,7 @@
 import pytest
 import os
 from unittest.mock import patch
-from pyAnimals_ejh.pyAnimals_ejh import clearScreen
+from pyAnimalsEJH.pyAnimalsEJH import clearScreen
 
 # test #1: check clearScreen() for Windows
 @patch("os.system")

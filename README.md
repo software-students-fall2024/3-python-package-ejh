@@ -1,13 +1,13 @@
 ![Build Status](https://github.com/software-students-fall2024/3-python-package-ejh/actions/workflows/event-logger.yml/badge.svg)
 
-# pyAnimals-ejh
+# pyAnimalsEJH
 
 ## Table of Contents
 1. [Description](#description)
 2. [PyPI Page](#pypi-page)
 3. [Installation](#installation)
 4. [Virtual Environment & Dependencies](#virtual-environment--dependencies)
-5. [Running pyAnimals_ejh](#running-pyanimals_ejh)
+5. [Running pyAnimalsEJH](#running-pyanimalsEJH)
 6. [Examples](#examples)
 7. [Contributing](#contributing)
 8. [Team Members](#team-members)
@@ -16,12 +16,12 @@
 A fun package that displays animals on the terminal with movement and messages.
 
 ## PyPI Page
-You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.1.1/)
+You can find pyAnimalsEJH on PyPI [HERE](https://pypi.org/project/pyAnimalsEJH/0.1.1/)
 
 ## Installation
-Install `pyAnimals_ejh` with pip:
+Install `pyAnimalsEJH` with pip:
 ```
-pip install pyAnimals_ejh
+pip install pyAnimalsEJH
 ```
 
 ## Virtual Environment & Dependencies
@@ -32,10 +32,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Running pyAnimals_ejh
-To run `pyAnimals_ejh`, use the following command:
+## Running pyAnimalsEJH
+To run `pyAnimalsEJH`, use the following command:
 ```
-python -m pyAnimals_ejh
+python -m pyAnimalsEJH
 ```
 
 ## Examples
@@ -70,7 +70,7 @@ print_fact("elephant")
 See an example program that uses all functions [HERE](/example.py)
 
 ## Contributing
-We welcome contributions to enhance and grow pyAnimals_ejh! Follow these steps to set up the development environment:
+We welcome contributions to enhance and grow pyAnimalsEJH! Follow these steps to set up the development environment:
 1. Clone the Repository:
 ```
 git clone https://github.com/software-students-fall2024/3-python-package-ejh.git

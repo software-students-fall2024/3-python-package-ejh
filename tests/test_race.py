@@ -1,5 +1,5 @@
 import pytest
-from pyAnimals_ejh.pyAnimals_ejh import _get_animal_emoji, _update_position, _get_race_result, race
+from pyAnimalsEJH.pyAnimalsEJH import _get_animal_emoji, _update_position, _get_race_result, race
 
 # tests for package function race
 class TestRaceFunctions:
