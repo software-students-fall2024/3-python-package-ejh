@@ -1,5 +1,5 @@
 import time
-from pyAnimals.pyAnimals_ejh import *
+from pyAnimals_ejh.pyAnimals_ejh import *
 
 def main():
     while (1):
