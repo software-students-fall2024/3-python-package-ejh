@@ -5,8 +5,8 @@
 ## Table of Contents
 1. [Description](#description)
 2. [PyPI Page](#pypi-page)
-3. [Installation](#installation)
-4. [Virtual Environment](#virtual-environment)
+3. [Virtual Environment](#virtual-environment)
+4. [Installation](#installation)
 5. [Functions](#functions)
 6. [Example](#example)
 7. [Contributing](#contributing)
@@ -16,7 +16,14 @@
 A fun package that displays animals on the terminal with movement and messages.
 
 ## PyPI Page
-You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.2.0/)
+You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.2.1/)
+
+## Virtual Environment
+Set up the virtual environment:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
 ## Installation
 Install `pyAnimals_ejh` with pip:
@@ -26,13 +33,6 @@ pip install pyAnimals_ejh
 Check that the package is installed with pip:
 ```
 pip list
-```
-
-## Virtual Environment
-Set up the virtual environment:
-```
-python3 -m venv venv
-source venv/bin/activate
 ```
 
 ## Functions
@@ -64,11 +64,7 @@ Raises: ValueError if no facts are available for the specified animal.
 print_fact("elephant")
 ```
 ## Example
-To run an example implementation of `pyAnimals_ejh`, use the following command:
-```
-python3 example.py
-```
-See this example program [HERE](/example.py)
+To view an example implementation of `pyAnimals_ejh`, [see the example.py file](/example.py)
 
 ## Contributing
 We welcome contributions to enhance and grow pyAnimals_ejh! Follow these steps to set up the development environment:
