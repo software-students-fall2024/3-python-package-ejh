@@ -25,6 +25,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Virtual Environment
+Set up the virtual environment:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ## Installation
 Install `pyAnimals_ejh` with pip:
 ```
