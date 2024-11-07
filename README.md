@@ -18,6 +18,13 @@ A fun package that displays animals on the terminal with movement and messages.
 ## PyPI Page
 You can find pyAnimals_ejh on PyPI [HERE](https://pypi.org/project/pyAnimals-ejh/0.2.0/)
 
+## Virtual Environment
+Set up the virtual environment:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ## Installation
 Install `pyAnimals_ejh` with pip:
 ```
@@ -26,13 +33,6 @@ pip install pyAnimals_ejh
 Check that the package is installed with pip:
 ```
 pip list
-```
-
-## Virtual Environment
-Set up the virtual environment:
-```
-python3 -m venv venv
-source venv/bin/activate
 ```
 
 ## Functions
