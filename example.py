@@ -1,4 +1,3 @@
-import time
 from pyAnimals_ejh.pyAnimals_ejh import *
 
 def main():
